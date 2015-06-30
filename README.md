@@ -92,7 +92,7 @@ Observe the caller methods in the order they are invoked and also thread informa
 void methodA(){
    methodB();
 }
-void methodA(){
+void methodB(){
    Logger.d("hello");
 }
 ```
